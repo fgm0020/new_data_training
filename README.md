@@ -1,93 +1,95 @@
-# 分批上传 CSV 到 GitHub 仓库（每 3 分钟 50 个）
+# 分批把 CSV 投喂给 Copilot 问问题/做分析（每 3 分钟一批、每批最多 50 个）
 
-本工具用于将本地目录中的小 CSV 文件，按固定节奏分批上传到 GitHub 仓库中：
-- 默认：每 3 分钟上传 50 个文件（可通过参数自定义）
-- 每一批会以一次提交（commit）落到目标分支与目录
-- 支持断点续传（本地状态文件 .upload_state.json）
+本工具将本地目录中的小 CSV 文件分批整理成**提问用 Prompt**（Markdown），并按节奏投喂给 Copilot 聊天（或仅生成 Prompt 供你手动复制）。
 
-上传完成后，你可以把仓库链接发给协作方（例如 Copilot Chat），对方就能按批次读取 CSV 进行处理。
+## 两种使用方式
+
+- 方式 A（推荐通用）：只生成每一批的 Prompt 文件（.md），你把文件内容复制到你使用的 Copilot Chat 窗口即可（VS Code/浏览器都行）。
+- 方式 B（自动发送，依赖本机已安装并登录的 Copilot 命令行聊天）：脚本会把每批 Prompt 直接发给 Copilot 聊天，并把回答保存在本地。
+
+> 提示：命令行聊天的具体参数和非交互能力可能因版本而略有差异；如果自动发送在你机器上不可用，请用方式 A。
 
 ## 快速开始
 
-### 1) 准备环境
-
-- Python 3.9+
-- 一个具备 `repo` 权限的 GitHub Personal Access Token（经典 Token 或者细粒度 Token，需允许对应仓库的写权限）
-
+1) 准备环境（Python 3.9+，无需第三方库）
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+source .venv/bin/activate   # Windows PowerShell: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-将 GitHub Token 放到环境变量：
+2) 准备你的 CSV 小文件
+- 把拆分好的 CSV 放到一个目录，如 `./chunks`
+- 默认仅处理扩展名 `.csv`，可通过 `--pattern` 改为 `**/*.csv`
+
+3) 仅生成 Prompt 文件（稳妥做法）
 ```bash
-export GITHUB_TOKEN=ghp_xxx...   # Windows PowerShell: $env:GITHUB_TOKEN="ghp_xxx..."
-```
-
-### 2) 准备你的 CSV 小文件
-
-- 假设你已经把原始超大 CSV 拆分成小文件，放在一个目录，如 `./chunks`
-- 默认脚本只会处理扩展名为 `.csv` 的文件
-
-### 3) 运行脚本
-
-```bash
-python upload_csv_batches.py \
-  --repo fgm0020/AI_for_Science_paper_collection \
+python batch_to_copilot.py \
   --source-dir ./chunks \
-  --dest-dir ai4s/csv_incoming \
-  --branch main \
-  --batch-size 50 \
-  --interval-seconds 180
-```
-
-参数说明：
-- `--repo`：目标仓库，格式 `owner/repo`
-- `--source-dir`：本地 CSV 小文件目录
-- `--dest-dir`：上传到仓库内的目标目录（会自动创建层级）
-- `--branch`：目标分支（默认 `main`）
-- `--batch-size`：每批文件数（默认 50）
-- `--interval-seconds`：每批间隔秒数（默认 180，即 3 分钟）
-- `--shuffle`：可选，随机打乱文件顺序
-- `--dry-run`：可选，仅打印将要上传哪些文件，不真正上传
-- `--state-file`：可选，自定义断点续传状态文件路径（默认在当前目录 `.upload_state.json`）
-
-示例：随机顺序上传，每 3 分钟 50 个
-```bash
-python upload_csv_batches.py \
-  --repo fgm0020/AI_for_Science_paper_collection \
-  --source-dir ./chunks \
-  --dest-dir ai4s/csv_incoming \
+  --out-dir ./copilot_batches \
   --batch-size 50 \
   --interval-seconds 180 \
-  --shuffle
+  --rows-per-file 3 \
+  --max-prompt-bytes 60000 \
+  --dry-run
 ```
+- 执行后会在 `./copilot_batches` 下生成类似 `batch_0001_prompt.md` 的文件。
+- 打开对应文件，把内容复制到 Copilot Chat，即可发起你的问题与上下文。
 
-### 4) 断点续传
-
-- 脚本会在本地生成 `.upload_state.json`，记录已上传的文件。
-- 如果中断，重新运行同样的命令即可从未上传的文件继续。
-
-### 5) 提交信息
-
-每个提交的 message 形如：
+4) 自动把每批 Prompt 投喂给命令行里的 Copilot 聊天（可选）
+```bash
+python batch_to_copilot.py \
+  --source-dir ./chunks \
+  --out-dir ./copilot_batches \
+  --batch-size 50 \
+  --interval-seconds 180 \
+  --rows-per-file 3 \
+  --max-prompt-bytes 60000 \
+  --use-cli
 ```
-AI4S CSV batch #<N> (50 files) to ai4s/csv_incoming
-```
-并在消息体里列出本批次文件清单，方便在 GitHub 上回溯。
+- 需要你本机已安装并登录命令行 Copilot 聊天。
+- 每一批会在本地生成 `batch_XXXX_prompt.md`（提问）和 `batch_XXXX_response.md`（回答）文件。
+- 如果自动发送失败，请改用上面的 `--dry-run`，把 Prompt 手动复制到 Copilot Chat。
 
-## 常见问题
+## 常用参数
 
-- Q: GitHub Actions 能否定时每 3 分钟发一批？
-  - A: GitHub Actions 的定时（cron）一般最短 5 分钟；若要 3 分钟节奏，建议用本地脚本。也可以用 Actions 启动单次作业后在作业里 `sleep 180` 循环多次，但不如本地脚本直观可控。
+- `--source-dir`：CSV 目录
+- `--pattern`：文件匹配模式（默认 `**/*.csv`）
+- `--batch-size`：每批最多处理的文件数（默认 50）
+- `--interval-seconds`：批次间隔秒数（默认 180，即 3 分钟）
+- `--rows-per-file`：每个文件采样的行数（默认 3）
+- `--max-prompt-bytes`：单次 Prompt 最大字节数上限，超过会自动降采样（默认 60000）
+- `--shuffle`：随机打乱文件顺序
+- `--prompt-prefix-file`：自定义“问题前缀模板”（Markdown），不指定则用内置默认前缀
+- `--use-cli`：尝试自动把 Prompt 发送给命令行里的 Copilot 聊天
+- `--dry-run`：仅生成 Prompt 文件，不投喂（推荐先试）
+- `--state-file`：断点续传状态文件（默认 `.copilot_feed_state.json`）
 
-- Q: 会不会触发风控？
-  - A: 无法保证，但使用正常的 API、合理的节奏（例如每 3 分钟 50 个），相较一次性大量并发请求，更不容易触发异常。
+## Prompt 结构说明
 
-- Q: 目标路径里已有同名文件怎么办？
-  - A: 本工具基于本地状态文件避免重复；若你手动删除了状态文件，脚本会当作新文件再推送并覆盖仓库中的同名路径。
+每批 Prompt 包含：
+- 你的“问题前缀”指令（可自定义），例如：
+  - 要 Copilot 输出统一字段、如何去重、如何筛选“三个顶会的 AI4S 论文”等
+  - 要求回答格式（例如只输出 CSV/JSON 等）
+- 对本批每个 CSV 的摘要：
+  - 文件名、可能的行数（如果可快速读取）
+  - 表头（列名）
+  - 前 N 行样例数据
+  - 所有样例均以代码块（```csv）包裹，便于 Copilot 解析
 
-## 完成后协作
+注意：为避免超出上下文限制，脚本会控制总长度；如超出，会自动把每个文件的样例行数降为 1，仍超出则只保留表头。
 
-当你上传了前几批，请把仓库链接发给我，并告诉我 CSV 的字段含义。我就能读取这些 CSV，开始整理三个顶会（例如 NeurIPS/ICLR/ICML 或 AAAI/CVPR/ICML 等）的 AI4S 论文清单。
+## 预设的问题前缀（默认）
+
+默认前缀会引导 Copilot：
+- 将本批 CSV 的信息融合，聚焦 AI4S 论文；
+- 判定是否属于你指定的三个顶会（例：NeurIPS/ICLR/ICML）；
+- 标准化输出并去重（同题目+作者视为重复）；
+- 指定输出为 CSV，仅含你关心的列。
+
+你可以用 `--prompt-prefix-file` 提供自己的前缀模板（Markdown）。
+
+## 小贴士
+
+- 初次建议开 `--dry-run`，检查生成的 Prompt 是否满足你的预期，再决定是否自动投喂。
+- 如果你希望更强的压缩（比如只发表头+文件级统计），可把 `--rows-per-file` 设为 0，并开启你自己的前缀模板，引导 Copilot 根据“列名与文件名”做高层分析。
