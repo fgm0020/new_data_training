@@ -1,0 +1,318 @@
+title,type,virtualsite_url,domain/subject
+FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making,,https://neurips.cc//virtual/2024/poster/94352,social_science
+Disentangling the Roles of Distinct Cell Classes with Cell-Type Dynamical Systems,,https://neurips.cc//virtual/2024/poster/96294,biology
+Parametric model reduction of mean-field and stochastic systems via higher-order action matching,,https://neurips.cc//virtual/2024/poster/93463,physics
+Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation,,https://neurips.cc//virtual/2024/poster/93104,chemistry
+Active learning of neural population dynamics using two-photon holographic optogenetics,,https://neurips.cc//virtual/2024/poster/93697,neuroscience
+Spike-based Neuromorphic Model for Sound Source Localization,,https://neurips.cc//virtual/2024/poster/96112,neuroscience
+Spiking Graph Neural Network on Riemannian Manifolds,,https://neurips.cc//virtual/2024/poster/94910,neuroscience
+Spiking Neural Network as Adaptive Event Stream Slicer,,https://neurips.cc//virtual/2024/poster/96133,neuroscience
+Spiking Token Mixer:  An event-driven friendly Former structure for spiking neural networks,,https://neurips.cc//virtual/2024/poster/93999,neuroscience
+Spiking Transformer with Experts Mixture,,https://neurips.cc//virtual/2024/poster/94824,neuroscience
+Off-Policy Selection for Initiating Human-Centric Experimental Design,,https://neurips.cc//virtual/2024/poster/93365,medical
+Capturing the denoising effect of PCA via compression ratio,,https://neurips.cc//virtual/2024/poster/94592,biology
+CARE: a Benchmark Suite for the Classification and Retrieval of Enzymes,,https://neurips.cc//virtual/2024/poster/97712,biology
+Divergences between Language Models and Human Brains,,https://neurips.cc//virtual/2024/poster/96072,neuroscience
+Monomial Matrix Group Equivariant Neural Functional Networks,,https://neurips.cc//virtual/2024/poster/93437,neuroscience
+Lorentz-Equivariant Geometric Algebra Transformers for High-Energy Physics,,https://neurips.cc//virtual/2024/poster/94796,physics
+Empowering Active Learning for 3D Molecular Graphs with Geometric Graph Isomorphism,,https://neurips.cc//virtual/2024/poster/95817,chemistry
+Image-aware Evaluation of Generated Medical Reports,,https://neurips.cc//virtual/2024/poster/94257,medical
+Amnesia as a Catalyst for Enhancing Black Box Pixel Attacks in Image Classification and Object Detection,,https://neurips.cc//virtual/2024/poster/95435,physics
+Amortized Active Causal Induction with Deep Reinforcement Learning,,https://neurips.cc//virtual/2024/poster/96475,biology
+Panacea: Pareto Alignment via Preference Adaptation for LLMs,,https://neurips.cc//virtual/2024/poster/94149,social_science
+Quadratic Quantum Variational Monte Carlo,,https://neurips.cc//virtual/2024/poster/93844,physics
+Slack-Free Spiking Neural Network Formulation for Hypergraph Minimum Vertex Cover,,https://neurips.cc//virtual/2024/poster/96690,neuroscience
+SLED: Self Logits Evolution Decoding for Improving Factuality in Large Language Models,,https://neurips.cc//virtual/2024/poster/93358,biology
+"Me, Myself, and AI: The Situational Awareness Dataset (SAD) for LLMs",,https://neurips.cc//virtual/2024/poster/97669,social_science
+Approximating mutual information of high-dimensional variables using learned representations,,https://neurips.cc//virtual/2024/poster/95842,biology
+A probability contrastive learning framework for 3D molecular representation learning,,https://neurips.cc//virtual/2024/poster/95825,chemistry
+Toward a Well-Calibrated Discrimination via Survival Outcome-Aware Contrastive Learning,,https://neurips.cc//virtual/2024/poster/94964,medical
+FasMe: Fast and Sample-efficient Meta Estimator for Precision Matrix Learning in Small Sample Settings,,https://neurips.cc//virtual/2024/poster/93163,medical
+Nature-Inspired Local Propagation,,https://neurips.cc//virtual/2024/poster/94312,physics
+Navigating Chemical Space with Latent Flows,,https://neurips.cc//virtual/2024/poster/94584,chemistry
+Graph Diffusion Transformers for Multi-Conditional Molecular Generation,,https://neurips.cc//virtual/2024/poster/94402,chemistry
+Neural Network Reparametrization for Accelerated Optimization in Molecular Simulations,,https://neurips.cc//virtual/2024/poster/95938,biology
+Object segmentation from common fate: Motion energy processing enables human-like zero-shot generalization to random dot stimuli,,https://neurips.cc//virtual/2024/poster/95285,neuroscience
+Dynamics of Supervised and Reinforcement Learning in the Non-Linear Perceptron,,https://neurips.cc//virtual/2024/poster/94317,neuroscience
+E2ENet: Dynamic Sparse Feature Fusion for Accurate and Efficient 3D Medical Image Segmentation,,https://neurips.cc//virtual/2024/poster/94743,neuroscience
+Cooperate or Collapse:  Emergence of Sustainable Cooperation in a Society of LLM Agents,,https://neurips.cc//virtual/2024/poster/96895,social_science
+Not so griddy: Internal representations of RNNs path integrating more than one agent,,https://neurips.cc//virtual/2024/poster/94311,neuroscience
+Lips Are Lying: Spotting the Temporal Inconsistency between Audio and Visual in Lip-Syncing DeepFakes,,https://neurips.cc//virtual/2024/poster/93027,biology
+LLaMo: Large Language Model-based Molecular Graph Assistant,,https://neurips.cc//virtual/2024/poster/94836,chemistry
+Exploring the trade-off between deep-learning and explainable models for brain-machine interfaces,,https://neurips.cc//virtual/2024/poster/94983,neuroscience
+Designing Cell-Type-Specific Promoter Sequences Using Conservative Model-Based Optimization,,https://neurips.cc//virtual/2024/poster/96002,biology
+Mixture of neural fields for heterogeneous reconstruction in cryo-EM,,https://neurips.cc//virtual/2024/poster/95007,biology
+SMART: Towards Pre-trained Missing-Aware Model for Patient Health Status Prediction,,https://neurips.cc//virtual/2024/poster/96447,medical
+S-MolSearch: 3D Semi-supervised Contrastive Learning for Bioactive Molecule Search,,https://neurips.cc//virtual/2024/poster/93161,biology
+Gene-Gene Relationship Modeling Based on Genetic Evidence for Single-Cell RNA-Seq Data Imputation,,https://neurips.cc//virtual/2024/poster/94136,biology
+realSEUDO for real-time calcium imaging analysis,,https://neurips.cc//virtual/2024/poster/94683,neuroscience
+Neuronal Competition Groups with Supervised STDP for Spike-Based Classification,,https://neurips.cc//virtual/2024/poster/95890,neuroscience
+Neuro-Vision to Language: Enhancing Brain Recording-based Visual Reconstruction and Language Interaction,,https://neurips.cc//virtual/2024/poster/93607,neuroscience
+Unified Guidance for Geometry-Conditioned Molecular Generation,,https://neurips.cc//virtual/2024/poster/95815,chemistry
+Unified Insights: Harnessing Multi-modal Data for Phenotype Imputation via View Decoupling,,https://neurips.cc//virtual/2024/poster/96387,medical
+MutaPLM: Protein Language Modeling for Mutation Explanation and Engineering,,https://neurips.cc//virtual/2024/poster/92987,biology
+Continuous Spatiotemporal Events Decoupling through Spike-based Bayesian Computation,,https://neurips.cc//virtual/2024/poster/92957,neuroscience
+PaCE: Parsimonious Concept Engineering for Large Language Models,,https://neurips.cc//virtual/2024/poster/93836,social_science
+AsEP: Benchmarking Deep Learning Methods for Antibody-specific Epitope Prediction,,https://neurips.cc//virtual/2024/poster/97702,biology
+Understanding the Limits of Vision Language Models Through the Lens of the Binding Problem,,https://neurips.cc//virtual/2024/poster/95266,neuroscience
+Matching the Statistical Query Lower Bound for $k$-Sparse Parity Problems with Sign Stochastic Gradient Descent,,https://neurips.cc//virtual/2024/poster/96024,neuroscience
+Beyond Single Stationary Policies: Meta-Task Players as Naturally Superior Collaborators,,https://neurips.cc//virtual/2024/poster/95801,social_science
+Beyond Slow Signs in High-fidelity Model Extraction,,https://neurips.cc//virtual/2024/poster/95487,neuroscience
+Bias and Volatility: A Statistical Framework for Evaluating Large Language Model's Stereotypes and the Associated Generation Inconsistency,,https://neurips.cc//virtual/2024/poster/97475,social_science
+Enhancing vision-language models for medical imaging: bridging the 3D gap with innovative slice selection,,https://neurips.cc//virtual/2024/poster/97755,medical
+Unraveling Molecular Structure: A Multimodal Spectroscopic Dataset for Chemistry,,https://neurips.cc//virtual/2024/poster/97441,chemistry
+Unscrambling disease progression at scale: fast inference of event permutations with optimal transport,,https://neurips.cc//virtual/2024/poster/95076,medical
+Unsupervised Anomaly Detection in The Presence of Missing Values,,https://neurips.cc//virtual/2024/poster/96230,biology
+Doob's Lagrangian: A Sample-Efficient Variational Approach to Transition Path Sampling,,https://neurips.cc//virtual/2024/poster/95087,biology
+GV-Rep: A Large-Scale Dataset for Genetic Variant Representation Learning,,https://neurips.cc//virtual/2024/poster/97813,biology
+Hamiltonian Score Matching and Generative Flows,,https://neurips.cc//virtual/2024/poster/95722,physics
+When LLM Meets DRL: Advancing Jailbreaking Efficiency via DRL-guided Search,,https://neurips.cc//virtual/2024/poster/95953,biology
+SfPUEL: Shape from Polarization under Unknown Environment Light,,https://neurips.cc//virtual/2024/poster/93377,materials
+Flexible Context-Driven Sensory Processing in Dynamical Vision Models,,https://neurips.cc//virtual/2024/poster/96746,neuroscience
+Flexible mapping of abstract domains by grid cells via self-supervised extraction and projection of generalized velocity signals,,https://neurips.cc//virtual/2024/poster/94041,neuroscience
+Flexible task abstractions emerge in linear networks with fast and bounded units,,https://neurips.cc//virtual/2024/poster/96245,neuroscience
+Flex-MoE: Modeling Arbitrary Modality Combination via the Flexible Mixture-of-Experts,,https://neurips.cc//virtual/2024/poster/93993,medical
+FlexMol: A Flexible Toolkit for Benchmarking Molecular Relational Learning,,https://neurips.cc//virtual/2024/poster/97484,biology
+"Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models",,https://neurips.cc//virtual/2024/poster/97519,biology
+Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation,,https://neurips.cc//virtual/2024/poster/97472,chemistry
+"Towards a ""Universal Translator"" for Neural Dynamics at Single-Cell, Single-Spike Resolution",,https://neurips.cc//virtual/2024/poster/93693,neuroscience
+Few-shot Algorithms for Consistent Neural Decoding (FALCON) Benchmark,,https://neurips.cc//virtual/2024/poster/97780,neuroscience
+Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images,,https://neurips.cc//virtual/2024/poster/93310,biology
+"ChaosBench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction",,https://neurips.cc//virtual/2024/poster/97481,earth_climate
+ET-Flow: Equivariant Flow-Matching for Molecular Conformer Generation,,https://neurips.cc//virtual/2024/poster/94522,chemistry
+Evaluating alignment between humans and neural network representations in image-based learning tasks,,https://neurips.cc//virtual/2024/poster/96361,neuroscience
+MmCows: A Multimodal Dataset for Dairy Cattle Monitoring,,https://neurips.cc//virtual/2024/poster/97651,earth_climate
+Generating Highly Designable Proteins with Geometric Algebra Flow Matching,,https://neurips.cc//virtual/2024/poster/93710,biology
+Generative Fractional Diffusion Models,,https://neurips.cc//virtual/2024/poster/96210,biology
+Imitating Language via Scalable Inverse Reinforcement Learning,,https://neurips.cc//virtual/2024/poster/96578,biology
+Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment,,https://neurips.cc//virtual/2024/poster/93906,biology
+AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making,,https://neurips.cc//virtual/2024/poster/97511,social_science
+Addressing Asynchronicity in Clinical Multimodal Fusion via Individualized Chest X-ray Generation,,https://neurips.cc//virtual/2024/poster/93285,medical
+The Importance of Being Scalable: Improving the Speed and Accuracy of Neural Network Interatomic Potentials Across Chemical Domains,,https://neurips.cc//virtual/2024/poster/94722,chemistry
+Unveiling the Bias Impact on Symmetric Moral Consistency of Large Language Models,,https://neurips.cc//virtual/2024/poster/93215,social_science
+Text to Blind Motion,,https://neurips.cc//virtual/2024/poster/97700,social_science
+Probablistic Emulation of a Global Climate Model with Spherical DYffusion,,https://neurips.cc//virtual/2024/poster/95762,earth_climate
+PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action,,https://neurips.cc//virtual/2024/poster/97810,social_science
+Enhancing LLM Reasoning via Vision-Augmented Prompting,,https://neurips.cc//virtual/2024/poster/95453,neuroscience
+Enhancing Protein Mutation Effect Prediction through a Retrieval-Augmented Framework,,https://neurips.cc//virtual/2024/poster/95577,biology
+Model Based Inference of Synaptic Plasticity Rules,,https://neurips.cc//virtual/2024/poster/93446,neuroscience
+$\textit{NeuroPath}$: A Neural Pathway Transformer for Joining the Dots of Human Connectomes,,https://neurips.cc//virtual/2024/poster/96225,neuroscience
+$\textit{Read-ME}$: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design,,https://neurips.cc//virtual/2024/poster/94027,biology
+From Biased to Unbiased Dynamics: An Infinitesimal Generator Approach,,https://neurips.cc//virtual/2024/poster/95044,chemistry
+Causal language modeling can elicit search and reasoning capabilities on logic puzzles,,https://neurips.cc//virtual/2024/poster/94030,biology
+Melting Pot Contest: Charting the Future of Generalized Cooperative Intelligence,,https://neurips.cc//virtual/2024/poster/97476,social_science
+Partial observation can induce mechanistic mismatches in data-constrained models of neural dynamics,,https://neurips.cc//virtual/2024/poster/95614,neuroscience
+PEACE: A Dataset of Pharmaceutical Care for Cancer Pain Analgesia Evaluation and Medication Decision,,https://neurips.cc//virtual/2024/poster/97596,medical
+Pre-trained Gaussian Processes for Bayesian Optimization,,https://neurips.cc//virtual/2024/poster/98319,biology
+Extracting Training Data from Molecular Pre-trained Models,,https://neurips.cc//virtual/2024/poster/94410,chemistry
+Higher-Order Causal Message Passing for Experimentation with Complex Interference,,https://neurips.cc//virtual/2024/poster/96704,social_science
+MediQ: Question-Asking LLMs and a Benchmark for Reliable Interactive Clinical Reasoning,,https://neurips.cc//virtual/2024/poster/94856,medical
+MedJourney: Benchmark and Evaluation of Large Language Models over Patient Clinical Journey,,https://neurips.cc//virtual/2024/poster/97646,medical
+Med-Real2Sim: Non-Invasive Medical Digital Twins using Physics-Informed Self-Supervised Learning,,https://neurips.cc//virtual/2024/poster/93097,medical
+MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models,,https://neurips.cc//virtual/2024/poster/97606,medical
+BioTrove: A Large Curated Image Dataset Enabling AI for Biodiversity,,https://neurips.cc//virtual/2024/poster/97806,earth_climate
+PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications,,https://neurips.cc//virtual/2024/poster/94806,medical
+Full-Atom Peptide Design with Geometric Latent Diffusion,,https://neurips.cc//virtual/2024/poster/95784,biology
+SubgDiff: A Subgraph Diffusion Model to Improve Molecular Representation Learning,,https://neurips.cc//virtual/2024/poster/94004,chemistry
+Kermut: Composite kernel regression for protein variant effects,,https://neurips.cc//virtual/2024/poster/93963,biology
+Rethinking the Membrane Dynamics and Optimization Objectives of Spiking Neural Networks,,https://neurips.cc//virtual/2024/poster/96543,biology
+Pretraining with Random Noise for Fast and Robust Learning without Weight Transport,,https://neurips.cc//virtual/2024/poster/96093,neuroscience
+From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection,,https://neurips.cc//virtual/2024/poster/93316,social_science
+MTGS: A Novel Framework for Multi-Person Temporal Gaze Following and Social Gaze Prediction,,https://neurips.cc//virtual/2024/poster/96265,social_science
+Multi-Agent Domain Calibration with a Handful of Offline Data,,https://neurips.cc//virtual/2024/poster/94045,physics
+DiReCT: Diagnostic Reasoning for Clinical Notes via Large Language Models,,https://neurips.cc//virtual/2024/poster/97782,medical
+Direct Preference-Based Evolutionary Multi-Objective Optimization with Dueling Bandits,,https://neurips.cc//virtual/2024/poster/93593,biology
+Discovering plasticity rules that organize and maintain neural circuits,,https://neurips.cc//virtual/2024/poster/93653,neuroscience
+Learning Complete Protein Representation by Dynamically Coupling of Sequence and Structure,,https://neurips.cc//virtual/2024/poster/96915,biology
+Neural Characteristic Activation Analysis and Geometric Parameterization for ReLU Networks,,https://neurips.cc//virtual/2024/poster/96466,neuroscience
+Recurrent neural network dynamical systems for biological vision,,https://neurips.cc//virtual/2024/poster/94629,neuroscience
+Transformer Doctor: Diagnosing and Treating Vision Transformers,,https://neurips.cc//virtual/2024/poster/94398,biology
+TurboHopp: Accelerated Molecule Scaffold Hopping with Consistency Models,,https://neurips.cc//virtual/2024/poster/93849,chemistry
+BrainBits: How Much of the Brain are Generative Reconstruction Methods Using?,,https://neurips.cc//virtual/2024/poster/95678,neuroscience
+Brain-JEPA: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking,,https://neurips.cc//virtual/2024/poster/94113,neuroscience
+Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli,,https://neurips.cc//virtual/2024/poster/97751,neuroscience
+Bridge-IF: Learning Inverse Protein Folding with Markov Bridges,,https://neurips.cc//virtual/2024/poster/95261,biology
+A survey and benchmark of high-dimensional Bayesian optimization of discrete sequences,,https://neurips.cc//virtual/2024/poster/97688,biology
+VFIMamba: Video Frame Interpolation with State Space Models,,https://neurips.cc//virtual/2024/poster/96629,biology
+Understanding and Minimising Outlier Features in Transformer Training,,https://neurips.cc//virtual/2024/poster/93665,neuroscience
+MIDGArD: Modular Interpretable Diffusion over Graphs for Articulated Designs,,https://neurips.cc//virtual/2024/poster/93424,physics
+Second-order forward-mode optimization of recurrent neural networks for neuroscience,,https://neurips.cc//virtual/2024/poster/95282,neuroscience
+"WildGuard: Open One-stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs",,https://neurips.cc//virtual/2024/poster/97764,social_science
+WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models,,https://neurips.cc//virtual/2024/poster/93716,social_science
+Learning to Mitigate Externalities: the Coase Theorem with Hindsight Rationality,,https://neurips.cc//virtual/2024/poster/93602,social_science
+MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making,,https://neurips.cc//virtual/2024/poster/96041,medical
+Mean-Field Langevin Dynamics for Signed Measures via a Bilevel Approach,,https://neurips.cc//virtual/2024/poster/95349,neuroscience
+Apathetic or Empathetic? Evaluating LLMs' Emotional Alignments with Humans,,https://neurips.cc//virtual/2024/poster/93520,social_science
+Reprogramming Pretrained Target-Specific Diffusion Models for Dual-Target Drug Design,,https://neurips.cc//virtual/2024/poster/94717,biology
+Transferable Boltzmann Generators,,https://neurips.cc//virtual/2024/poster/96246,chemistry
+Cell ontology guided transcriptome foundation model,,https://neurips.cc//virtual/2024/poster/94537,biology
+Ultrafast classical phylogenetic method beats large protein language models on variant effect prediction,,https://neurips.cc//virtual/2024/poster/95854,biology
+Uncertainty of Thoughts: Uncertainty-Aware Planning Enhances Information Seeking in LLMs,,https://neurips.cc//virtual/2024/poster/96142,medical
+Unconditional stability of a recurrent neural circuit implementing divisive normalization,,https://neurips.cc//virtual/2024/poster/96568,biology
+VLM4Bio: A Benchmark Dataset to Evaluate Pretrained Vision-Language Models for Trait Discovery from Biological Images,,https://neurips.cc//virtual/2024/poster/97668,biology
+Du-IN: Discrete units-guided mask modeling for decoding speech from Intracranial Neural signals,,https://neurips.cc//virtual/2024/poster/93238,neuroscience
+Dynamic Neural Regeneration: Enhancing Deep Learning Generalization on Small Datasets,,https://neurips.cc//virtual/2024/poster/93510,neuroscience
+FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models,,https://neurips.cc//virtual/2024/poster/97809,medical
+BenchX: A Unified Benchmark Framework for Medical Vision-Language Pretraining on Chest X-Rays,,https://neurips.cc//virtual/2024/poster/97555,medical
+Generative Modeling of Molecular Dynamics Trajectories,,https://neurips.cc//virtual/2024/poster/93022,biology
+Genetic-guided GFlowNets for Sample Efficient Molecular Optimization,,https://neurips.cc//virtual/2024/poster/96215,chemistry
+BiDM: Pushing the Limit of Quantization for Diffusion Models,,https://neurips.cc//virtual/2024/poster/93620,biology
+Exploring Behavior-Relevant and Disentangled Neural Dynamics with Generative Diffusion Models,,https://neurips.cc//virtual/2024/poster/93965,neuroscience
+SegVol: Universal and Interactive Volumetric Medical Image Segmentation,,https://neurips.cc//virtual/2024/poster/96893,medical
+Metric Flow Matching for Smooth Interpolations on the Data Manifold,,https://neurips.cc//virtual/2024/poster/94221,biology
+MG-Net: Learn to Customize QAOA with Circuit Depth Awareness,,https://neurips.cc//virtual/2024/poster/96594,physics
+Micro-Bench: A Microscopy Benchmark for Vision-Language Understanding,,https://neurips.cc//virtual/2024/poster/97589,biology
+Pin-Tuning: Parameter-Efficient In-Context Tuning for Few-Shot Molecular Property Prediction,,https://neurips.cc//virtual/2024/poster/96395,chemistry
+Decision-Making Behavior Evaluation Framework for LLMs under Uncertain Context,,https://neurips.cc//virtual/2024/poster/93425,social_science
+MiSO: Optimizing brain stimulation to create neural activity states,,https://neurips.cc//virtual/2024/poster/95894,neuroscience
+Automated Multi-Task Learning for Joint Disease Prediction on Electronic Health Records,,https://neurips.cc//virtual/2024/poster/93818,medical
+Clustering in Causal Attention Masking,,https://neurips.cc//virtual/2024/poster/95352,physics
+Score-based 3D molecule generation with neural fields,,https://neurips.cc//virtual/2024/poster/96296,chemistry
+MARPLE: A Benchmark for Long-Horizon Inference,,https://neurips.cc//virtual/2024/poster/97512,social_science
+MassSpecGym: A benchmark for the discovery and identification of molecules,,https://neurips.cc//virtual/2024/poster/97823,biology
+BEACON: Benchmark for Comprehensive RNA Tasks and Language Models,,https://neurips.cc//virtual/2024/poster/97501,biology
+Neural Pfaffians: Solving Many Many-Electron Schrödinger Equations,,https://neurips.cc//virtual/2024/poster/95837,chemistry
+Neural Residual Diffusion Models for Deep Scalable Vision Generation,,https://neurips.cc//virtual/2024/poster/95457,biology
+NeuroBOLT: Resting-state EEG-to-fMRI Synthesis with Multi-dimensional Feature Mapping,,https://neurips.cc//virtual/2024/poster/93044,neuroscience
+Towards Unified Multimodal Editing with Enhanced Knowledge Collaboration,,https://neurips.cc//virtual/2024/poster/93873,biology
+TPR: Topology-Preserving Reservoirs for Generalized Zero-Shot Learning,,https://neurips.cc//virtual/2024/poster/92938,biology
+STimage-1K4M: A histopathology image-gene expression dataset for spatial transcriptomics,,https://neurips.cc//virtual/2024/poster/97551,medical
+Dual-Perspective Activation: Efficient Channel Denoising via Joint Forward-Backward Criterion for Artificial Neural Networks,,https://neurips.cc//virtual/2024/poster/95636,neuroscience
+Is Your HD Map Constructor Reliable under Sensor Corruptions?,,https://neurips.cc//virtual/2024/poster/97736,earth_climate
+Invariant Tokenization of Crystalline Materials for Language Model Enabled Generation,,https://neurips.cc//virtual/2024/poster/96883,materials
+Take A Shortcut Back: Mitigating the Gradient Vanishing for Training Spiking Neural Networks,,https://neurips.cc//virtual/2024/poster/93065,biology
+FNP: Fourier Neural Processes for Arbitrary-Resolution Data Assimilation,,https://neurips.cc//virtual/2024/poster/96630,earth_climate
+Foundation Inference Models for Markov Jump Processes,,https://neurips.cc//virtual/2024/poster/94231,biology
+Molecule Design by Latent Prompt Transformer,,https://neurips.cc//virtual/2024/poster/94326,chemistry
+Molecule Generation with Fragment Retrieval Augmentation,,https://neurips.cc//virtual/2024/poster/96613,chemistry
+MonkeySee: Space-time-resolved reconstructions of natural images from macaque multi-unit activity,,https://neurips.cc//virtual/2024/poster/95362,neuroscience
+Trading Place for Space: Increasing Location Resolution Reduces Contextual Capacity in Hippocampal Codes,,https://neurips.cc//virtual/2024/poster/95187,neuroscience
+Training Compute-Optimal Protein Language Models,,https://neurips.cc//virtual/2024/poster/93287,biology
+ReactZyme: A Benchmark for Enzyme-Reaction Prediction,,https://neurips.cc//virtual/2024/poster/97442,biology
+Advancing Spiking Neural Networks for Sequential Modeling with Central Pattern Generators,,https://neurips.cc//virtual/2024/poster/93894,neuroscience
+Fisher Flow Matching for Generative Modeling over Discrete Data,,https://neurips.cc//virtual/2024/poster/96502,biology
+"Utilizing Human Behavior Modeling to Manipulate Explanations in AI-Assisted Decision Making: The Good, the Bad, and the Scary",,https://neurips.cc//virtual/2024/poster/96440,social_science
+Scalable Neural Network Verification with Branch-and-bound Inferred Cutting Planes,,https://neurips.cc//virtual/2024/poster/95939,neuroscience
+Scale Equivariant Graph Metanetworks,,https://neurips.cc//virtual/2024/poster/96382,neuroscience
+Learning from Pattern Completion: Self-supervised Controllable Generation,,https://neurips.cc//virtual/2024/poster/96398,neuroscience
+Learning Identifiable Factorized Causal Representations of Cellular Responses,,https://neurips.cc//virtual/2024/poster/96237,biology
+WelQrate: Defining the Gold Standard in Small Molecule Drug Discovery Benchmarking,,https://neurips.cc//virtual/2024/poster/97684,chemistry
+PPLNs: Parametric Piecewise Linear Networks for Event-Based Temporal Modeling and Beyond,,https://neurips.cc//virtual/2024/poster/95126,neuroscience
+SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning,,https://neurips.cc//virtual/2024/poster/95287,social_science
+Diffusion Twigs with Loop Guidance for Conditional Graph Generation,,https://neurips.cc//virtual/2024/poster/94177,biology
+Samba: Severity-aware Recurrent Modeling for Cross-domain Medical Image Grading,,https://neurips.cc//virtual/2024/poster/94567,medical
+GeSS: Benchmarking Geometric Deep Learning under Scientific Applications with Distribution Shifts,,https://neurips.cc//virtual/2024/poster/97816,physics
+Get rich quick: exact solutions reveal how unbalanced initializations promote rapid feature learning,,https://neurips.cc//virtual/2024/poster/94278,neuroscience
+GFlowNet Assisted Biological Sequence Editing,,https://neurips.cc//virtual/2024/poster/94171,biology
+NanoBaseLib: A Multi-Task Benchmark Dataset for Nanopore Sequencing,,https://neurips.cc//virtual/2024/poster/97859,biology
+Predicting Ground State Properties: Constant Sample Complexity and Deep Learning Algorithms,,https://neurips.cc//virtual/2024/poster/93006,physics
+Neural Concept Binder,,https://neurips.cc//virtual/2024/poster/92990,biology
+Neural decoding from stereotactic EEG: accounting for electrode variability across subjects,,https://neurips.cc//virtual/2024/poster/95591,neuroscience
+Neural Embeddings Rank: Aligning 3D latent dynamics with movements,,https://neurips.cc//virtual/2024/poster/95804,neuroscience
+Inferring stochastic low-rank recurrent neural networks from neural data,,https://neurips.cc//virtual/2024/poster/96170,neuroscience
+Structured flexibility in recurrent neural networks via neuromodulation,,https://neurips.cc//virtual/2024/poster/95823,neuroscience
+Learning diverse causally emergent representations from time series data,,https://neurips.cc//virtual/2024/poster/92973,neuroscience
+RGFN: Synthesizable Molecular Generation Using GFlowNets,,https://neurips.cc//virtual/2024/poster/94040,chemistry
+GLinSAT: The General Linear Satisfiability Neural Network Layer By Accelerated Gradient Descent,,https://neurips.cc//virtual/2024/poster/93783,biology
+Global Distortions from Local Rewards: Neural Coding Strategies in Path-Integrating Neural Systems,,https://neurips.cc//virtual/2024/poster/96333,neuroscience
+Globally Convergent Variational Inference,,https://neurips.cc//virtual/2024/poster/96338,neuroscience
+$E^3$: Exploring Embodied Emotion Through A Large-Scale Egocentric Video Dataset,,https://neurips.cc//virtual/2024/poster/97427,social_science
+$\nabla^2$DFT: A Universal Quantum Chemistry Dataset of Drug-Like Molecules and a Benchmark for Neural Network Potentials,,https://neurips.cc//virtual/2024/poster/97788,chemistry
+A versatile informative diffusion model for single-cell ATAC-seq data generation and analysis,,https://neurips.cc//virtual/2024/poster/95129,biology
+Learning to Cooperate with Humans using Generative Agents,,https://neurips.cc//virtual/2024/poster/93229,social_science
+Randomized Sparse Matrix Compression for Large-Scale Constrained Optimization in Cancer Radiotherapy,,https://neurips.cc//virtual/2024/poster/95748,medical
+How Molecules Impact Cells: Unlocking Contrastive PhenoMolecular Retrieval,,https://neurips.cc//virtual/2024/poster/95593,chemistry
+How to Boost Any Loss Function,,https://neurips.cc//virtual/2024/poster/95532,physics
+Divide-and-Conquer Meets Consensus: Unleashing the Power of Functions in Code Generation,,https://neurips.cc//virtual/2024/poster/94430,social_science
+On the Scalability of GNNs for Molecular Graphs,,https://neurips.cc//virtual/2024/poster/93869,chemistry
+Conditional Synthesis of 3D Molecules with Time Correction Sampler,,https://neurips.cc//virtual/2024/poster/94127,chemistry
+Conditioning non-linear and infinite-dimensional diffusion processes,,https://neurips.cc//virtual/2024/poster/95970,biology
+Hybrid Generative AI for De Novo Design of Co-Crystals with Enhanced Tabletability,,https://neurips.cc//virtual/2024/poster/95931,chemistry
+Hydra: Bidirectional State Space Models Through Generalized Matrix Mixers,,https://neurips.cc//virtual/2024/poster/93526,biology
+Bridging Model-Based Optimization and Generative Modeling via Conservative Fine-Tuning of Diffusion Models,,https://neurips.cc//virtual/2024/poster/92964,biology
+Generalized Protein Pocket Generation with Prior-Informed Flow Matching,,https://neurips.cc//virtual/2024/poster/94801,biology
+Generalizing CNNs to graphs with learnable neighborhood quantization,,https://neurips.cc//virtual/2024/poster/94335,biology
+Variational Flow Matching for Graph Generation,,https://neurips.cc//virtual/2024/poster/94958,biology
+DePLM: Denoising Protein Language Models for Property Optimization,,https://neurips.cc//virtual/2024/poster/95517,biology
+A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis,,https://neurips.cc//virtual/2024/poster/95098,medical
+Personalized Steering of Large Language Models: Versatile Steering Vectors Through Bi-directional Preference Optimization,,https://neurips.cc//virtual/2024/poster/96424,social_science
+Pessimistic Backward Policy for GFlowNets,,https://neurips.cc//virtual/2024/poster/95618,biology
+Towards Safe Concept Transfer of Multi-Modal Diffusion via Causal Representation Editing,,https://neurips.cc//virtual/2024/poster/93488,biology
+Towards Stable Representations for Protein Interface Prediction,,https://neurips.cc//virtual/2024/poster/95383,biology
+Towards training digitally-tied analog blocks via hybrid gradient computation,,https://neurips.cc//virtual/2024/poster/94491,physics
+Can Large Language Model Agents Simulate Human Trust Behavior?,,https://neurips.cc//virtual/2024/poster/96131,social_science
+Cross-Care: Assessing the Healthcare Implications of Pre-training Data on Language Model Bias,,https://neurips.cc//virtual/2024/poster/97819,medical
+Topological obstruction to the training of shallow ReLU neural networks,,https://neurips.cc//virtual/2024/poster/96726,neuroscience
+MOTIVE: A Drug-Target Interaction Graph For Inductive Link Prediction,,https://neurips.cc//virtual/2024/poster/97758,biology
+MSA Generation with Seqs2Seqs Pretraining: Advancing Protein Structure Predictions,,https://neurips.cc//virtual/2024/poster/96109,biology
+MSAGPT: Neural Prompting Protein Structure Prediction via MSA Generative Pre-Training,,https://neurips.cc//virtual/2024/poster/93555,biology
+EHRCon: Dataset for Checking Consistency between Unstructured Notes and Structured Tables in Electronic Health Records,,https://neurips.cc//virtual/2024/poster/97848,medical
+DEFT: Efficient Fine-tuning of Diffusion Models by Learning the Generalised $h$-transform,,https://neurips.cc//virtual/2024/poster/96267,biology
+DEL: Discrete Element Learner for Learning 3D Particle Dynamics with Neural Rendering,,https://neurips.cc//virtual/2024/poster/96792,physics
+"DeltaDock: A Unified Framework for Accurate, Efficient, and Physically Reliable Molecular Docking",,https://neurips.cc//virtual/2024/poster/94333,biology
+Contrastive dimension reduction: when and how?,,https://neurips.cc//virtual/2024/poster/95756,biology
+Contrastive losses as generalized models of global epistasis,,https://neurips.cc//virtual/2024/poster/94075,biology
+Controlled maximal variability along with reliable performance in recurrent neural networks,,https://neurips.cc//virtual/2024/poster/93009,neuroscience
+Association Pattern-aware Fusion for Biological Entity Relationship Prediction,,https://neurips.cc//virtual/2024/poster/95606,biology
+AdaNovo: Towards Robust \emph{De Novo} Peptide Sequencing in Proteomics against Data Biases,,https://neurips.cc//virtual/2024/poster/96894,biology
+DALD: Improving Logits-based Detector without Logits from Black-box LLMs,,https://neurips.cc//virtual/2024/poster/94084,biology
+DART-Eval: A Comprehensive DNA Language Model Evaluation Benchmark on Regulatory DNA,,https://neurips.cc//virtual/2024/poster/97497,biology
+EpiCare: A Reinforcement Learning Benchmark for Dynamic Treatment Regimes,,https://neurips.cc//virtual/2024/poster/97595,medical
+Equivariant Blurring Diffusion for Hierarchical Molecular Conformer Generation,,https://neurips.cc//virtual/2024/poster/96234,chemistry
+FEDMEKI: A Benchmark for Scaling Medical Foundation Models via Federated Knowledge Injection,,https://neurips.cc//virtual/2024/poster/97482,medical
+Feedback control guides credit assignment in recurrent neural networks,,https://neurips.cc//virtual/2024/poster/93074,neuroscience
+FEEL-SNN: Robust Spiking Neural Networks with Frequency Encoding and Evolutionary Leak Factor,,https://neurips.cc//virtual/2024/poster/95008,neuroscience
+CryoBench: Diverse and challenging datasets for the heterogeneity problem in cryo-EM,,https://neurips.cc//virtual/2024/poster/97535,biology
+CryoGEM: Physics-Informed Generative Cryo-Electron Microscopy,,https://neurips.cc//virtual/2024/poster/94256,physics
+The motion planning neural circuit in goal-directed navigation as Lie group operator search,,https://neurips.cc//virtual/2024/poster/95206,biology
+Retrieval-Retro: Retrieval-based Inorganic Retrosynthesis with Expert Knowledge,,https://neurips.cc//virtual/2024/poster/96429,chemistry
+Retrospective for the Dynamic Sensorium Competition for predicting large-scale mouse primary visual cortex activity from videos,,https://neurips.cc//virtual/2024/poster/97578,neuroscience
+Latent Diffusion for Neural Spiking Data,,https://neurips.cc//virtual/2024/poster/94632,neuroscience
+Automating Data Annotation under Strategic Human Agents: Risks and Potential Solutions,,https://neurips.cc//virtual/2024/poster/96814,social_science
+Autonomous Agents for Collaborative Task under Information Asymmetry,,https://neurips.cc//virtual/2024/poster/93728,social_science
+Autonomous Driving with Spiking Neural Networks,,https://neurips.cc//virtual/2024/poster/96329,neuroscience
+Artificial Generational Intelligence: Cultural Accumulation in Reinforcement Learning,,https://neurips.cc//virtual/2024/poster/93559,social_science
+A SARS-CoV-2 Interaction Dataset and VHH Sequence Corpus for Antibody Language Models,,https://neurips.cc//virtual/2024/poster/97722,biology
+PROSPECT PTMs: Rich Labeled Tandem Mass Spectrometry Dataset of Modified Peptides for Machine Learning in Proteomics,,https://neurips.cc//virtual/2024/poster/97558,biology
+ProtGO: Function-Guided Protein Modeling for Unified Representation Learning,,https://neurips.cc//virtual/2024/poster/96904,biology
+Categorical Flow Matching on Statistical Manifolds,,https://neurips.cc//virtual/2024/poster/96577,biology
+Poisson Variational Autoencoder,,https://neurips.cc//virtual/2024/poster/94249,neuroscience
+PhyRecon: Physically Plausible Neural Scene Reconstruction,,https://neurips.cc//virtual/2024/poster/95212,physics
+Physical Consistency Bridges Heterogeneous Data in Molecular Multi-Task Learning,,https://neurips.cc//virtual/2024/poster/95877,biology
+Physics-Informed Regularization for Domain-Agnostic Dynamical System Modeling,,https://neurips.cc//virtual/2024/poster/94000,physics
+Physics-Regularized Multi-Modal Image Assimilation for Brain Tumor Localization,,https://neurips.cc//virtual/2024/poster/94680,medical
+Piecewise deterministic generative models,,https://neurips.cc//virtual/2024/poster/95773,physics
+Harmony4D: A Video Dataset for In-The-Wild Close Human Interactions,,https://neurips.cc//virtual/2024/poster/97726,social_science
+EfficientCAPER: An End-to-End Framework for Fast and Robust Category-Level Articulated Object Pose Estimation,,https://neurips.cc//virtual/2024/poster/95615,biology
+Implicitly Guided Design with PropEn: Match your Data to Follow the Gradient,,https://neurips.cc//virtual/2024/poster/94325,biology
+FlexSBDD: Structure-Based Drug Design with Flexible Protein Modeling,,https://neurips.cc//virtual/2024/poster/96689,biology
+Flow Snapshot Neurons in Action: Deep Neural Networks Generalize to Biological Motion Perception,,https://neurips.cc//virtual/2024/poster/94457,neuroscience
+Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion,,https://neurips.cc//virtual/2024/poster/95138,neuroscience
+Visual Pinwheel Centers Act as Geometric Saliency Detectors,,https://neurips.cc//virtual/2024/poster/95595,neuroscience
+SustainDC: Benchmarking for Sustainable Data Center Control,,https://neurips.cc//virtual/2024/poster/97671,earth_climate
+SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering,,https://neurips.cc//virtual/2024/poster/93753,social_science
+A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types,,https://neurips.cc//virtual/2024/poster/97655,chemistry
+Absorb & Escape: Overcoming Single Model Limitations in Generating Heterogeneous Genomic Sequences,,https://neurips.cc//virtual/2024/poster/94782,biology
+IQA-EVAL: Automatic Evaluation of Human-Model Interactive Question Answering,,https://neurips.cc//virtual/2024/poster/95473,social_science
+UniTox: Leveraging LLMs to Curate a Unified Dataset of Drug-Induced Toxicity from FDA Labels,,https://neurips.cc//virtual/2024/poster/97665,chemistry
+UniIF: Unified Molecule Inverse Folding,,https://neurips.cc//virtual/2024/poster/94387,biology
+Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization,,https://neurips.cc//virtual/2024/poster/96029,biology
+Aligning to Thousands of Preferences via System Message Generalization,,https://neurips.cc//virtual/2024/poster/93423,social_science
+Nonlinear dynamics of localization in neural receptive fields,,https://neurips.cc//virtual/2024/poster/93650,neuroscience
+Long-range Brain Graph Transformer,,https://neurips.cc//virtual/2024/poster/94190,neuroscience
+Long-Range Feedback Spiking Network Captures Dynamic and Static Representations of the Visual Cortex under Movie Stimuli,,https://neurips.cc//virtual/2024/poster/94454,neuroscience
+Instruction Tuning Large Language Models to Understand Electronic Health Records,,https://neurips.cc//virtual/2024/poster/97801,medical
+Instructor-inspired Machine Learning for Robust Molecular Property Prediction,,https://neurips.cc//virtual/2024/poster/93976,biology
+Multi-modal Transfer Learning between Biological Foundation Models,,https://neurips.cc//virtual/2024/poster/93095,biology
+MultiOrg: A Multi-rater Organoid-detection Dataset,,https://neurips.cc//virtual/2024/poster/97645,medical
+Multiple Physics Pretraining for Spatiotemporal Surrogate Models,,https://neurips.cc//virtual/2024/poster/96095,physics
+"RoleAgent: Building, Interacting, and Benchmarking High-quality Role-Playing Agents from Scripts",,https://neurips.cc//virtual/2024/poster/97569,social_science
+Noether's Razor: Learning Conserved Quantities,,https://neurips.cc//virtual/2024/poster/94316,physics
+Data-Driven Discovery of Dynamical Systems in Pharmacology using Large Language Models,,https://neurips.cc//virtual/2024/poster/95672,medical
+G2D: From Global to Dense Radiography Representation Learning via Vision-Language Pre-training,,https://neurips.cc//virtual/2024/poster/92931,medical
+Sequence-Augmented SE(3)-Flow Matching For Conditional Protein Generation,,https://neurips.cc//virtual/2024/poster/93544,biology
+Geodesic Optimization for Predictive Shift Adaptation on EEG data,,https://neurips.cc//virtual/2024/poster/93495,medical
+Geometric Trajectory Diffusion Models,,https://neurips.cc//virtual/2024/poster/95359,biology
+Geometry of naturalistic object representations in recurrent neural network models of working memory,,https://neurips.cc//virtual/2024/poster/95467,neuroscience
+Learning diffusion at lightspeed,,https://neurips.cc//virtual/2024/poster/93047,biology
+GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI,,https://neurips.cc//virtual/2024/poster/97754,medical
